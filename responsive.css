@@ -1,0 +1,9 @@
+@media (max-width:576px){
+    .navbar-items{
+        display: none !important;
+    }
+    .hamburger-menu{
+        display: block;
+        padding-top: 7px !important;
+    }
+}

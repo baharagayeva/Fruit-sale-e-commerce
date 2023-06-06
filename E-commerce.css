@@ -1,0 +1,263 @@
+html,
+body {
+    height: auto;
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+navbar{
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+.hamburger-menu{
+    display: none;
+}
+ul li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.nav-icon {
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.section-1-header{
+    position: absolute;
+    top: 200px;
+    width: 500px;
+    left: 50px;
+}
+
+.section-1-button{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+}
+
+.section-2-img img{
+    width: 90%;
+}
+
+#check{
+    color: #3cb815;
+    padding-right: 10px;
+}
+
+.btn-custom-green{
+    background-color: #3cb815 !important;
+    outline-style: none;
+}
+
+.btn-custom-green:hover{
+    background-color:#59c338 !important ;
+}
+
+.btn-custom-red{
+    background-color: #f65005!important;
+    outline-style: none;
+}
+
+.btn-custom-red:hover{
+    background-color:#f76a2b !important ;
+}
+
+.section-3{
+    background: url("./images/bg-icon.png") center center repeat;
+    background-size: contain;
+    background-color: rgb(242, 242, 242);
+}
+
+.section-3-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.line-1{
+    border: 1px solid #3cb815;
+    width: 50px;
+    margin-bottom: 6px;
+}
+
+.line-2{
+    border: 1px solid #f65005;
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+.section-3-paragraph{
+    width: 40%;
+}
+
+.section-4-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.line-3{
+    border: 1px solid #3cb815;
+    width: 50px;
+    margin-bottom: 6px;
+}
+
+.line-4{
+    border: 1px solid #f65005;
+    width: 70px;
+    margin-bottom: 6px;
+}
+
+.btn-custom-success{
+    background-color: #3cb815 !important;
+    outline-style: none;
+    border-radius: 0px !important;
+}
+
+.btn-outline-success:hover{
+    background-color: #3cb815 !important;
+    border: none;
+}
+
+.section-4-paragraph{
+    font-size: 14px;
+}
+
+.section-4-wrapper{
+    width: 78% !important;
+}
+
+.section-4-box{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    width: 23% !important;
+}
+
+.sub-box{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width:49% !important ;
+    margin-top: 3px;
+}
+.sub-box a{
+    color: black;
+    font-size: 14px;
+}
+
+#section4-icon{
+    color:#3cb815 !important ;
+}
+
+#text{
+    color: #3cb815;
+}
+.section-5{
+    background-color: #3cb815;
+    margin-top: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.section-6{
+    background: url("./images/bg-icon.png") center center repeat;
+    background-size: contain;
+    background-color: rgb(242, 242, 242);
+}
+.section-6-wrapper{
+    width: 78% !important;
+}
+.section-6-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-6-box.middle{
+    background-color: #3cb815;
+    color: white;
+}
+.rounded-pill.round{
+    width: 60px;
+}
+.section-7-wrapper{
+    width: 85% !important;
+}
+.section-7-header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.section-7-boxs{
+    padding-bottom: 80px;
+}
+.section-7-box{
+    background-color:rgb(242, 242, 242) ;
+}
+.section-7-box img{
+    width: 100%;
+}
+.section-7-box h5{
+    line-height: 35px;
+}
+.line{
+    border: 0.5px solid gray;
+    opacity: 10%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+#section-7-icon{
+    color:#3cb815 !important ;
+}
+.footer{
+    background-color:#111;
+    color: gray;
+}
+.footer-boxs{
+    padding-top: 80px;
+}
+.footer-box h5{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.footer-box a{
+    color: gray;
+    line-height: 30px;
+}
+.mfk{
+    color: #f65005;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+.mfk::first-letter{
+    color: #3cb815;
+}
+.mfk span:last-child{
+    color: #3cb815;
+}
+.icons{
+    border: 1px solid white;
+    color: white !important;
+    padding: 8px 12px;
+}
+.input-box{
+    border: 1px solid white;
+}
+.input{
+    border: none;
+    background-color: #111;
+    padding: 10px 20px;
+}
+.btn-custom{
+    background-color: #3cb815;
+    color: white;
+    border: none;
+    padding: 5px;
+    margin-right: 5px;
+}
+.footer-line{
+    border: gray;
+}
