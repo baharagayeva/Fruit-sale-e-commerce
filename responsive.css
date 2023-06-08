@@ -1,9 +1,336 @@
-@media (max-width:576px){
+@media (max-width:576px){ 
     .navbar-items{
         display: none !important;
     }
     .hamburger-menu{
         display: block;
         padding-top: 7px !important;
+    }
+    .carousel{
+        position: absolute;
+        top: 40px;
+    }
+    .section-1-header{
+        position: absolute;
+        top: 50px;
+        width: 70%;
+        left: 0;
+    }
+    .section-1-header h1{
+        font-size: 15px !important;
+    }
+    h1.text-center{
+        text-align: start !important;
+    }
+    .section-1-button{
+        position: absolute;
+        top: 150px;
+        left: 50px;
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        gap: 8px
+    }
+    .section1.btn{
+        width: 30%;
+    }
+    .section1.btn.ps-5{
+        padding: 10px 5px !important;
+    }
+    .section1.btn.text-white{
+        font-size: 10px;
+    }
+    .section-2-wrapper{
+        flex-direction: column;
+    }
+    .section-2-wrapper.w-75{
+        width: 100% !important;
+    }
+    .section-2-img img{
+        width: 250px;
+        padding-top: 15px;
+    }
+    .section-2-img.w-50{
+        width: 70% !important;
+    }
+    .section2-text.w-50{
+        width: 70% !important;
+        margin-top: 0 !important;
+    }
+    .section-3-header.pb-5{
+        padding: 30px 0 !important;
+    }
+    .section-3-paragraph{
+        width: 80%;
+    }
+    .section-3-boxs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-3-box{
+        width: 90% !important;
+    }
+    .section-4-wrapper{
+        width: 100% !important;
+    }
+    .section-4-header{
+        align-items: center;
+    }
+    .section-4-header.pt-5{
+        padding: 30px !important;
+    }
+    .section4-head-items{
+        flex-direction: column;
+    }
+    .section-4-paragraph{
+        width:100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .section-4-boxs .d-flex{
+        justify-content: center;
+    }
+    .section-4-box{
+        width: 90% !important;
+    }
+    .sub-box a{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    .section-5{
+        margin-top: 40px;
+        padding: 40px 0;
+    }
+    .section-5-wrapper{
+        flex-direction: column;
+    }
+    .section-6-header.pb-5{
+        padding: 30px 0 !important;
+    }
+    .section-6-paragraph{
+        width: 80%;
+    }
+    .section-6-boxs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-6-box{
+        width: 100% !important;
+    }
+    .section-7-header.pb-5{
+        padding: 30px 0 !important;
+    }
+    .section-7-paragraph{
+        width: 80%;
+    }
+    .section-7-boxs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-7-box{
+        width: 100% !important;
+    }
+    .section-7-paragraph{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .footer-boxs{
+        flex-direction: column;
+        padding-top: 40px;
+        gap: 20px;
+    }
+    .footer-box ul{
+        padding: 0;
+    }
+    .input-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .input-box .btn-custom{
+        margin: 5px;
+    }
+    .input{
+        padding: 10px 15px;
+    }
+}
+@media (max-width:1024px) and (min-width:576px){
+    .navbar-items{
+        display: none !important;
+    }
+    .hamburger-menu{
+        display: block;
+        padding-top: 7px !important;
+    }
+    .carousel{
+        position: absolute;
+        top: 40px;
+    }
+    .section-1-header{
+        position: absolute;
+        top: 90px;
+        width: 70%;
+        left: 0;
+    }
+    .section-1-header h1{
+        font-size: 35px !important;
+    }
+    h1.text-center{
+        text-align: start !important;
+    }
+    .section-1-button{
+        position: absolute;
+        top: 250px;
+        left: 90px;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 10px
+    }
+    .section1.btn{
+        width: 35%;
+    }
+    .section1.btn.ps-5{
+        padding: 15px 10px !important;
+    }
+    .section1.btn.text-white{
+        font-size: 15px;
+    }
+    .section-2-wrapper.w-75{
+        width: 90% !important;
+    }
+    .section-2-img img{
+        width: 300px;
+    }
+    .section-2-img.w-50{
+        width: 70% !important;
+    }
+    .section2-text.w-50{
+        width: 70% !important;
+        padding-top: 50px;
+    }
+    .section2-text h1{
+        font-size: 30px !important;
+    }
+    .section2-text p{
+        font-size: 15px !important;
+    }
+    .section2-text span{
+        font-size: 15px !important;
+    }
+    .section2-text .btn{
+       padding: 10px 30px !important;
+       font-size: 15px;
+    }
+    .section-3-header.pb-5{
+        padding: 30px 0 !important;
+    }
+    .section-3-paragraph{
+        width: 80%;
+    }
+    .section-3-boxs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-3-box{
+        width: 100% !important;
+    }
+    .section-4-wrapper{
+        width: 100% !important;
+    }
+    .section-4-header{
+        align-items: center;
+    }
+    .section-4-header.pt-5{
+        padding: 30px !important;
+    }
+    .section4-head-items{
+        flex-direction: column;
+    }
+    .section-4-buttons{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    .section-4-paragraph{
+        width:100%;
+        padding-bottom: 20px;
+        text-align: center;
+    }
+    .section-4-boxs .d-flex{
+        justify-content: center;
+    }
+    .section-4-box{
+        width: 40% !important;
+    }
+    .sub-box a{
+        display: flex;
+        gap: 15px;
+        align-items: center;
+    }
+    .section-5{
+        margin-top: 40px;
+        padding: 40px 0;
+    }
+    .section-5-wrapper{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-5-wrapper.w-75{
+        width: 100% !important;
+    }
+    .section-6-header.pb-5{
+        padding: 30px 0 !important;
+    }
+    .section-6-paragraph{
+        width: 80%;
+    }
+    .section-6-boxs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-6-box{
+        width: 100% !important;
+    }
+    .section-7-header.pb-5{
+        padding: 30px 0 !important;
+    }
+    .section-7-paragraph{
+        width: 80%;
+    }
+    .section-7-boxs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .section-7-box{
+        width: 100% !important;
+    }
+    .section-7-paragraph{
+        width: 100%;
+        text-align: center;
+        padding-left: 0;
+    }
+    .footer-boxs{
+        flex-wrap: wrap;
+    }
+    .footer-box{
+        width: 50%;
+    }
+    .footer-box h5{
+        padding-top: 20px;
+    }
+    .footer-box ul{
+        padding: 0;
+    }
+    .input-box{
+        display: flex;
+        justify-content: space-between;
+    }
+    .input-box .btn-custom{
+        margin: 5px;
+    }
+    .input{
+        padding: 10px 15px;
     }
 }

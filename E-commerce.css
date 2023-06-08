@@ -9,7 +9,7 @@ body {
 navbar{
     position: fixed;
     width: 100%;
-    z-index: 100;
+    z-index: 1;
 }
 .hamburger-menu{
     display: none;
@@ -126,6 +126,7 @@ a{
 
 .section-4-paragraph{
     font-size: 14px;
+    width:35%;
 }
 
 .section-4-wrapper{
@@ -135,6 +136,10 @@ a{
 .section-4-box{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
     width: 23% !important;
+}
+
+.section-4-box img{
+    width: 100%;
 }
 
 .sub-box{
@@ -189,6 +194,11 @@ a{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+.section-7-paragraph{
+    padding-left: 100px;
+    width: 86%;
+    text-align: center;
 }
 .section-7-boxs{
     padding-bottom: 80px;
