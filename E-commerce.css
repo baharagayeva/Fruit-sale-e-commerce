@@ -11,6 +11,29 @@ navbar{
     width: 100%;
     z-index: 1;
 }
+/* Style the dropdown menu */
+.navbar-items ul ul {
+    position: absolute;
+    top: 100%;
+    display: none;
+    background-color: #fff;
+}
+.navbar-items ul ul li {
+    display: block;
+}
+.navbar-items li:hover ul {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 75.3%;
+}
+.navbar-items .nav-item-dropdown:hover #page{
+    background-color: #fff;
+    padding: 0 4px;
+}
+.nav-item-dropdown ul{
+    padding: 5px;
+}
 .hamburger-menu{
     display: none;
 }
